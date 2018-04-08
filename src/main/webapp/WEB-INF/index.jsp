@@ -1,4 +1,5 @@
 <!DOCTYPE HTML>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <html lang="en">
 
 <head>
@@ -9,7 +10,7 @@
 
 <body>
 <div align="center">
-    <h1>Start page</h1>
+    <h1>Welcome to application </h1>
     <hr>
     <form action="/sendName" method="get">
         <input type="text" width="150" name="name" placeholder="Input name">
